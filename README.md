@@ -22,11 +22,11 @@ This is a demo project of GraphQL and React for the 2023 Women Who Code Dev Summ
 
 2. Install graphql and express
 
-### `npm install`
+`npm install`
 
 3. Run the Graphql server with Nodemon
 
-### `nodemon app`
+`nodemon app`
 
 The GraphQL server is hosted on [http://localhost:4000/graphql](http://localhost:4000/graphql)
 
@@ -36,11 +36,11 @@ With the graphql server running on port 4000, open a new terminal window to star
 
 1. Install react dependencies
 
-### `npm install`
+`npm install`
 
 2. Run the react app
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
