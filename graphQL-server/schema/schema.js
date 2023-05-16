@@ -126,9 +126,15 @@ const topics = [
     speakerId: "19",
   },
   {
-    name: "Interactive Group Networking",
+    name: "Closing Keynote",
     topic: "WWCode",
     id: "20",
+    speakerId: "20",
+  },
+  {
+    name: "Interactive Group Networking",
+    topic: "WWCode",
+    id: "21",
     speakerId: "21",
   },
 ];
