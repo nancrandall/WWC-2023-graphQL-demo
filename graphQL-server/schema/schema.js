@@ -10,7 +10,7 @@ const {
 } = graphql;
 
 // dummy data that will come from a DB usually
-var topics = [
+const topics = [
   {
     name: "Women Who Code Welcome",
     topic: "WWCode",
@@ -126,14 +126,20 @@ var topics = [
     speakerId: "19",
   },
   {
-    name: "Interactive Group Networking",
+    name: "Closing Keynote",
     topic: "WWCode",
     id: "20",
+    speakerId: "20",
+  },
+  {
+    name: "Interactive Group Networking",
+    topic: "WWCode",
+    id: "21",
     speakerId: "21",
   },
 ];
 
-var speakers = [
+const speakers = [
   {
     name: "Grecia Castaldi",
     occupation: "Director of Community",

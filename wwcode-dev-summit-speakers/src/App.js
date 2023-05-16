@@ -39,14 +39,22 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Thank you Women Who Code Dev Summit 2023 Speakers!</h1>
-        <ul>
-          {/* JavaScript value from the State to a JSON value */}
-          {/* {JSON.stringify(speakers, null, 2)} */}
-          {speakers.map((speakerElement) => (
-            <li key={speakerElement.id}>{speakerElement.name}</li>
-          ))}
-        </ul>
       </header>
+      <ul>
+        {/* JavaScript value from the State to a JSON value */}
+        {/* {JSON.stringify(speakers, null, 2)} */}
+        {speakers.map((speakerElement) => (
+          <li className="list" key={speakerElement.id}>
+            <span className="list_name"> {speakerElement.name + ", "}</span>
+            <span className="list_topic">
+              spoke about:
+              {speakerElement.topics.map((option, index) => (
+                <span key={index}>{" " + option.name}</span>
+              ))}
+            </span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
